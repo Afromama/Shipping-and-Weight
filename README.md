@@ -27,3 +27,5 @@ volume weight = (14 x 12 x 24) / 355 = 11kg
 In shipping, weights are usually rounded up, so integers instead of floats are returned.
 
 
+
+<img src="shipping_calculator.jfif">
