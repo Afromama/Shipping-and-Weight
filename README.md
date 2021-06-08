@@ -28,4 +28,4 @@ In shipping, weights are usually rounded up, so integers instead of floats are r
 
 
 
-<img src="shipping_calculator.jfif">
+<img src="calculator_picture1.jpg">
