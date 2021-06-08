@@ -10,16 +10,20 @@ volumetric weight of the item is calculated and returned using the provided valu
 # Loading the main window
 
 mainWindow = Tk()
-mainWindow.title("Shipping Calculator")
+mainWindow.title("Weight Calculator")
 mainWindow.geometry("330x350+800+150")
 mainWindow["padx"] = 10
 mainWindow["pady"] = 5
+
+# Methods are functions in a Class
 
 result_frame = Frame(mainWindow, borderwidth=2)
 result_frame.grid(row=0, column=0, rowspan=3, columnspan=5, sticky="ew")
 result_frame.rowconfigure(0, minsize=5)
 result_frame.rowconfigure(1, minsize=30)
 result_frame.rowconfigure(2, minsize=10)
+
+# Grid method is used to position widgets on a frame or main window
 
 result_box = Entry(result_frame, disabledbackground="white", width=50, justify=CENTER, insertbackground="white", borderwidth=2, relief="sunken")
 result_box.grid(row=1, column=0, rowspan=1, sticky="nsew")
